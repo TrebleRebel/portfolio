@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=ADLaM Display');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+
+body {
+    background-color:#303036;
+    text-align: center;
+    font-family: 'Cabin';
+    color: white;
+    
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+nav {
+    background-color: #131211;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 5px;
+}
+
+a:visited {
+    color: #30BCED;
+}
+
+h1 {
+    font-family: 'ADLaM Display';
+    font-size: 45px;
+    color: white;
+    text-decoration: underline;
+    background-color: #4A4A4F;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+h2 {
+    font-family: 'BioRhyme';
+    color: white;
+}
+
+footer {
+    background-color: #4A4A4F;
+    margin-top:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
