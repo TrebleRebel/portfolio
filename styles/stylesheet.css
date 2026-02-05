@@ -51,4 +51,6 @@ footer {
     margin-top:20px;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-style: solid;
+    border-color: #30BCED;
 }
