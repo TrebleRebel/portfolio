@@ -24,6 +24,7 @@ nav {
     padding-bottom: 5px;
 }
 
+
 a:link {
     color: #30BCED;
 }
@@ -54,9 +55,8 @@ h2 {
     color: white;
 }
 
-.socials {
-    margin-top: 2rem;
-
+.header-bottom {
+    margin-bottom: 0.5rem;
 }
 
 footer {
