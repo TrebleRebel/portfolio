@@ -1,14 +1,31 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=ADLaM Display');
 @import url('https://fonts.googleapis.com/css?family=BioRhyme');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
+*/
 
 
 body {
+    background-repeat: repeat;
     background-color:#303036;
     text-align: center;
-    font-family: 'Cabin';
+    /*font-family: 'Cabin';*/
     color: white;
-    
+}
+
+.box {
+    height: 425px;
+    width: 425px;
+    background-color:#131211;
+    border:#30BCED solid 5px;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul {
@@ -38,20 +55,19 @@ a:hover {
 }
 
 h1 {
-    font-family: 'ADLaM Display';
+    /*font-family: 'ADLaM Display';*/
     font-size: 45px;
     color: white;
     text-decoration: underline;
     background-color: #4A4A4F;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-style: solid;
-    border-color: #30BCED;
+    border:#30BCED solid 5px;
     
 }
 
 h2 {
-    font-family: 'BioRhyme';
+    /*font-family: 'BioRhyme';*/
     color: white;
 }
 
@@ -64,6 +80,5 @@ footer {
     margin-top:20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-style: solid;
-    border-color: #30BCED;
+    border:#30BCED solid 5px;
 }
