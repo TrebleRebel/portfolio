@@ -1,8 +1,46 @@
+/*HEADER AND NAVBAR*/
+header {
+    color: white;
+    background-color: #4A4A4F;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.header-bottom {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    font-size: 25px;
+    background-color: #131211;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 41%;
+    padding-right: 41%;
+}
+
+.navtext {
+    text-decoration: none;
+}
+
+/*MAIN BODY*/
 body {
-    background-repeat: repeat;
     background-color:#303036;
     text-align: center;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .box {
@@ -18,21 +56,13 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
 }
 
 ul {
     display: inline-block;
     text-align: left;
 }
-
-nav {
-    background-color: #131211;
-    color: white;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-bottom: 5px;
-}
-
 
 a:link {
     color: #30BCED;
@@ -46,29 +76,17 @@ a:hover {
     color: #8ce0ff;
 }
 
-h1 {
-    font-size: 45px;
-    color: white;
-    text-decoration: underline;
-    background-color: #4A4A4F;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border:#30BCED solid 5px;
-    
-}
 
 h2 {
     color: white;
 }
 
-.header-bottom {
-    margin-bottom: 0.5rem;
-}
-
+/*FOOTER*/
 footer {
     background-color: #4A4A4F;
     margin-top:20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border:#30BCED solid 5px;
+    position: relative;
+    bottom: 0;
 }
