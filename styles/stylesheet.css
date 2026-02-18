@@ -34,6 +34,11 @@ nav {
     text-decoration: none;
 }
 
+.navtext:hover {
+    font-weight: bold;
+    transition-duration: 0.075s;
+}
+
 /*MAIN BODY*/
 body {
     background-color:#303036;
@@ -51,6 +56,10 @@ body {
     align-content: center;
 }
 
+.box:nth-child(even){
+    background-color: #1D1E20;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -62,6 +71,10 @@ body {
 ul {
     display: inline-block;
     text-align: left;
+}
+
+li:nth-child(even) {
+    color: #30BCED;
 }
 
 a:link {
